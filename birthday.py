@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: xNimbleNavigatorx
+Credit: l
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -31,3 +31,10 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+print("Hello, what is your name? Eric"
+  " Hi Eric, what was the name of the month you were born in? September"
+  " And what year were you born in, Eric? 1972"
+  " And the day? 11"
+  " Eric, you are a fall baby of the stone age.")
+
+name = input("Hello, what is your name? ")
