@@ -42,4 +42,8 @@ year = input("And what year were you born in, " + name + "? ")
 day = input("And the day? ")
 
 if month == "december" or "january" or "february":
-    print("winter")
+    season = "winter"
+elif month == "march" or "april" or "may":
+    season = "spring"
+print(season)
+    
