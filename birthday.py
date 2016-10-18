@@ -57,9 +57,11 @@ if year >= 1990 and year < 2000:
 if year >= 1980 and year < 1990:
     age= "eighties"
 if year < 1980:
-    age= "stone Age"
-    
-    
-    
-print(age)
-print(season)
+    age= "Stone Age"
+
+if month == "october" and day == "31":
+    print("you were born on Halloween!")
+if month == todaymonth and day == todaydate:
+    print("Happy Birthday!")
+else:
+    print(name + ", you are a " + season + " baby of the " + age)
