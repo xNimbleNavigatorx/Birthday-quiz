@@ -60,8 +60,8 @@ if year < 1980:
     age= "Stone Age"
 
 if month == "october" and day == "31":
-    print("you were born on Halloween!")
-if month == todaymonth and day == todaydate:
+    print("You were born on Halloween!")
+elif month == todaymonth and day == todaydate:
     print("Happy Birthday!")
 else:
-    print(name + ", you are a " + season + " baby of the " + age)
+    print(name + ", you are a " + season + " baby of the " + age + ".")
