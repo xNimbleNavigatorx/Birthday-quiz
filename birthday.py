@@ -59,9 +59,10 @@ if year >= 1980 and year < 1990:
 if year < 1980:
     age= "Stone Age"
 
-if todaymonth:
+if todaymonth == 1:
+    todaymonth == "january"
     1 = "january"
-    2 = "february"
+elif todaymonth 2 = "february"
     3 = "march"
     4 = "april"
     5 = "may"
