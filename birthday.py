@@ -61,18 +61,28 @@ if year < 1980:
 
 if todaymonth == 1:
     todaymonth == "january"
-    1 = "january"
-elif todaymonth 2 = "february"
-    3 = "march"
-    4 = "april"
-    5 = "may"
-    6 = "june"
-    7 = "july"
-    8 = "august"
-    9 = "september"
-    10 = "october"
-    11 = "november"
-    12 = "december"
+elif todaymonth == 2:
+    todaymonth = "february"
+elif todaymonth == 3:
+    todaymonth = "march"
+elif todaymonth == 4:
+    todaymonth = "april"
+elif todaymonth == 5:
+    todaymonth = "may"
+elif todaymonth == 6:
+    todaymonth = "june"
+elif todaymonth == 7:
+    todaymonth = "july"
+elif todaymonth == 8:
+    todaymonth = "august"
+elif todaymonth == 9:
+    todaymonth = "september"
+elif todaymonth == 10:
+    todaymonth = "october"
+elif todaymonth == 11: 
+    todaymonth = "novemember"
+elif todaymonth == 12:
+    todaymonth = "december"
 
 if month == "october" and day == "31":
     print("You were born on Halloween!")
