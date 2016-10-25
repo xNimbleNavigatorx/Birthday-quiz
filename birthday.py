@@ -41,13 +41,13 @@ month = input("Hi " + name + ", what was the name of the month you were born in?
 year = int(input("And what year were you born in, " + name + "? "))
 day = input("And the day? ")
 
-if month == "december" or "january" or "february":
+if month == "December" or "January" or "February":
     season = "winter"
-if month == "march" or "april" or "may":
+if month == "March" or "April" or "May":
     season = "spring"
-if month == "june" or "july" or "august":
+if month == "June" or "July" or "August":
     season = "summer"
-if month == "september" or "october" or "november":
+if month == "September" or "October" or "November":
     season = "fall"
     
 if year >= 2000:
@@ -60,31 +60,31 @@ if year < 1980:
     age= "Stone Age"
 
 if todaymonth == 1:
-    todaymonth == "january"
+    todaymonth == "January"
 elif todaymonth == 2:
-    todaymonth = "february"
+    todaymonth = "February"
 elif todaymonth == 3:
-    todaymonth = "march"
+    todaymonth = "March"
 elif todaymonth == 4:
-    todaymonth = "april"
+    todaymonth = "April"
 elif todaymonth == 5:
-    todaymonth = "may"
+    todaymonth = "May"
 elif todaymonth == 6:
-    todaymonth = "june"
+    todaymonth = "June"
 elif todaymonth == 7:
-    todaymonth = "july"
+    todaymonth = "July"
 elif todaymonth == 8:
-    todaymonth = "august"
+    todaymonth = "August"
 elif todaymonth == 9:
-    todaymonth = "september"
+    todaymonth = "September"
 elif todaymonth == 10:
-    todaymonth = "october"
+    todaymonth = "October"
 elif todaymonth == 11: 
-    todaymonth = "novemember"
+    todaymonth = "Novemember"
 elif todaymonth == 12:
-    todaymonth = "december"
+    todaymonth = "December"
 
-if month == "october" and day == "31":
+if month == "October" and day == "31":
     print("You were born on Halloween!")
 if month == todaymonth and int(day) == todaydate:
     print("Happy Birthday!")
