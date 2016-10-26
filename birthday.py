@@ -43,11 +43,11 @@ day = input("And the day? ")
 
 if month == "December" or "January" or "February":
     season = "winter"
-if month == "March" or "April" or "May":
+elif month == "March" or "April" or "May":
     season = "spring"
-if month == "June" or "July" or "August":
+elif month == "June" or "July" or "August":
     season = "summer"
-if month == "September" or "October" or "November":
+elif month == "September" or "October" or "November":
     season = "fall"
     
 if year >= 2000:
